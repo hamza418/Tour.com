@@ -144,11 +144,35 @@ body {
   .btn-text:active {
     transform: translateY(0px); }
 
-.imgs-width {
-  width: 55%; }
+.imgs {
+  position: relative; }
+  .imgs-width {
+    width: 55%;
+    position: absolute;
+    border-radius: 2px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.3);
+    transition: all 0.2s; }
+    .imgs-width-p1 {
+      top: -2rem;
+      left: 0rem;
+      z-index: 1; }
+    .imgs-width-p2 {
+      top: 2rem;
+      right: 0rem;
+      z-index: 1; }
+    .imgs-width-p3 {
+      top: 10rem;
+      left: 18%;
+      z-index: 1; }
+    .imgs-width:hover {
+      transform: scale(1.05);
+      box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5);
+      z-index: 2; }
+  .imgs:hover .imgs-width:not(:hover) {
+    transform: scale(0.95); }
 
 .header {
-  background: linear-gradient(to bottom right, rgba(4, 68, 4, 0.945), rgba(4, 179, 33, 0.918)), url("tour3.jpg");
+  background: linear-gradient(to bottom right, rgba(4, 68, 4, 0.945), rgba(4, 179, 33, 0.918)), url("../img/tour3.jpg");
   background-size: cover;
   height: 95vh;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -184,3 +208,4 @@ body {
     float: left; }
     .about-2 .about-2-text-left:not(:last-child) {
       margin-right: 6rem; }
+
