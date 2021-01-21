@@ -148,7 +148,7 @@ body {
   width: 55%; }
 
 .header {
-  background: linear-gradient(to bottom right, rgba(4, 68, 4, 0.945), rgba(4, 179, 33, 0.918)), url("../img/tour3.jpg");
+  background: linear-gradient(to bottom right, rgba(4, 68, 4, 0.945), rgba(4, 179, 33, 0.918)), url("tour3.jpg");
   background-size: cover;
   height: 95vh;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
