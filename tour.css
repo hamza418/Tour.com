@@ -239,7 +239,7 @@ body {
       box-shadow: 0rem 1.5rem 2rem rgba(0, 0, 0, 0.3);
       transition: all 0.3s; }
       .features-4-colums .features-box:hover {
-        transform: translateY(-1.4rem) scale(1.1); }
+        transform: translateY(-1.4rem) ; }
       .features-4-colums .features-box--icon {
         font-size: 6rem;
         margin-bottom: 0.5rem;
